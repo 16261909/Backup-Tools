@@ -1,0 +1,319 @@
+{
+	"_type": "Project",
+	"_id": "AAAAAAFF+h6SjaM2Hec=",
+	"name": "Untitled",
+	"ownedElements": [
+		{
+			"_type": "UMLModel",
+			"_id": "AAAAAAGEUVXDlVeJYAQ=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "Model1",
+			"ownedElements": [
+				{
+					"_type": "UMLComponentDiagram",
+					"_id": "AAAAAAGEUVXRN1eMWCs=",
+					"_parent": {
+						"$ref": "AAAAAAGEUVXDlVeJYAQ="
+					},
+					"name": "ComponentDiagram1"
+				},
+				{
+					"_type": "UMLComponent",
+					"_id": "AAAAAAGEUVXfFlePJgo=",
+					"_parent": {
+						"$ref": "AAAAAAGEUVXDlVeJYAQ="
+					},
+					"name": "GUI",
+					"ownedElements": [
+						{
+							"_type": "UMLDependency",
+							"_id": "AAAAAAGEUVnVYFmCdJQ=",
+							"_parent": {
+								"$ref": "AAAAAAGEUVXfFlePJgo="
+							},
+							"source": {
+								"$ref": "AAAAAAGEUVXfFlePJgo="
+							},
+							"target": {
+								"$ref": "AAAAAAGEUVnVRllZgxc="
+							}
+						},
+						{
+							"_type": "UMLDependency",
+							"_id": "AAAAAAGEUV4nalxm9qY=",
+							"_parent": {
+								"$ref": "AAAAAAGEUVXfFlePJgo="
+							},
+							"source": {
+								"$ref": "AAAAAAGEUVXfFlePJgo="
+							},
+							"target": {
+								"$ref": "AAAAAAGEUVh8f1hourA="
+							}
+						},
+						{
+							"_type": "UMLDependency",
+							"_id": "AAAAAAGEUV6DolyrFe0=",
+							"_parent": {
+								"$ref": "AAAAAAGEUVXfFlePJgo="
+							},
+							"source": {
+								"$ref": "AAAAAAGEUVXfFlePJgo="
+							},
+							"target": {
+								"$ref": "AAAAAAGEUVjRx1i9zMI="
+							}
+						},
+						{
+							"_type": "UMLDependency",
+							"_id": "AAAAAAGEUV6QeFy8Bsk=",
+							"_parent": {
+								"$ref": "AAAAAAGEUVXfFlePJgo="
+							},
+							"source": {
+								"$ref": "AAAAAAGEUVXfFlePJgo="
+							},
+							"target": {
+								"$ref": "AAAAAAGEUViag1iSuFI="
+							}
+						},
+						{
+							"_type": "UMLDependency",
+							"_id": "AAAAAAGEUV6kVVzOA58=",
+							"_parent": {
+								"$ref": "AAAAAAGEUVXfFlePJgo="
+							},
+							"source": {
+								"$ref": "AAAAAAGEUVXfFlePJgo="
+							},
+							"target": {
+								"$ref": "AAAAAAGEUVjiFVjnByg="
+							}
+						},
+						{
+							"_type": "UMLDependency",
+							"_id": "AAAAAAGEUV6uHFzflW4=",
+							"_parent": {
+								"$ref": "AAAAAAGEUVXfFlePJgo="
+							},
+							"source": {
+								"$ref": "AAAAAAGEUVXfFlePJgo="
+							},
+							"target": {
+								"$ref": "AAAAAAGEUVj05VkRU1M="
+							}
+						},
+						{
+							"_type": "UMLDependency",
+							"_id": "AAAAAAGEUWHgBV3BB1Y=",
+							"_parent": {
+								"$ref": "AAAAAAGEUVXfFlePJgo="
+							},
+							"source": {
+								"$ref": "AAAAAAGEUVXfFlePJgo="
+							},
+							"target": {
+								"$ref": "AAAAAAGEUVh8f1hourA="
+							}
+						}
+					]
+				},
+				{
+					"_type": "UMLComponent",
+					"_id": "AAAAAAGEUVh8f1hourA=",
+					"_parent": {
+						"$ref": "AAAAAAGEUVXDlVeJYAQ="
+					},
+					"name": "Decompress",
+					"ownedElements": [
+						{
+							"_type": "UMLInterfaceRealization",
+							"_id": "AAAAAAGEUVsARVnKQh8=",
+							"_parent": {
+								"$ref": "AAAAAAGEUVh8f1hourA="
+							},
+							"source": {
+								"$ref": "AAAAAAGEUVh8f1hourA="
+							},
+							"target": {
+								"$ref": "AAAAAAGEUVsAKlmhGPk="
+							}
+						},
+						{
+							"_type": "UMLDependency",
+							"_id": "AAAAAAGEUV48qlx4Y9Q=",
+							"_parent": {
+								"$ref": "AAAAAAGEUVh8f1hourA="
+							},
+							"source": {
+								"$ref": "AAAAAAGEUVh8f1hourA="
+							},
+							"target": {
+								"$ref": "AAAAAAGEUViag1iSuFI="
+							}
+						},
+						{
+							"_type": "UMLDependency",
+							"_id": "AAAAAAGEUV5HpVyJyWY=",
+							"_parent": {
+								"$ref": "AAAAAAGEUVh8f1hourA="
+							},
+							"source": {
+								"$ref": "AAAAAAGEUVh8f1hourA="
+							},
+							"target": {
+								"$ref": "AAAAAAGEUVjRx1i9zMI="
+							}
+						},
+						{
+							"_type": "UMLDependency",
+							"_id": "AAAAAAGEUV5V7lya+V4=",
+							"_parent": {
+								"$ref": "AAAAAAGEUVh8f1hourA="
+							},
+							"source": {
+								"$ref": "AAAAAAGEUVh8f1hourA="
+							},
+							"target": {
+								"$ref": "AAAAAAGEUVjiFVjnByg="
+							}
+						},
+						{
+							"_type": "UMLDependency",
+							"_id": "AAAAAAGEUWH4Kl3SjDY=",
+							"_parent": {
+								"$ref": "AAAAAAGEUVh8f1hourA="
+							},
+							"source": {
+								"$ref": "AAAAAAGEUVh8f1hourA="
+							},
+							"target": {
+								"$ref": "AAAAAAGEUViag1iSuFI="
+							}
+						}
+					]
+				},
+				{
+					"_type": "UMLComponent",
+					"_id": "AAAAAAGEUViag1iSuFI=",
+					"_parent": {
+						"$ref": "AAAAAAGEUVXDlVeJYAQ="
+					},
+					"name": "Pack"
+				},
+				{
+					"_type": "UMLComponent",
+					"_id": "AAAAAAGEUVjRx1i9zMI=",
+					"_parent": {
+						"$ref": "AAAAAAGEUVXDlVeJYAQ="
+					},
+					"name": "Unpack"
+				},
+				{
+					"_type": "UMLComponent",
+					"_id": "AAAAAAGEUVjiFVjnByg=",
+					"_parent": {
+						"$ref": "AAAAAAGEUVXDlVeJYAQ="
+					},
+					"name": "Decrypt"
+				},
+				{
+					"_type": "UMLComponent",
+					"_id": "AAAAAAGEUVj05VkRU1M=",
+					"_parent": {
+						"$ref": "AAAAAAGEUVXDlVeJYAQ="
+					},
+					"name": "Decompress"
+				},
+				{
+					"_type": "UMLInterface",
+					"_id": "AAAAAAGEUVnVRllZgxc=",
+					"_parent": {
+						"$ref": "AAAAAAGEUVXDlVeJYAQ="
+					},
+					"name": "Interface1"
+				},
+				{
+					"_type": "UMLInterface",
+					"_id": "AAAAAAGEUVsAKlmhGPk=",
+					"_parent": {
+						"$ref": "AAAAAAGEUVXDlVeJYAQ="
+					},
+					"name": "Interface2"
+				},
+				{
+					"_type": "UMLInterface",
+					"_id": "AAAAAAGEUWJK+13rbp8=",
+					"_parent": {
+						"$ref": "AAAAAAGEUVXDlVeJYAQ="
+					},
+					"name": "Interface",
+					"ownedElements": [
+						{
+							"_type": "UMLDependency",
+							"_id": "AAAAAAGEUWKGUl4Y/YE=",
+							"_parent": {
+								"$ref": "AAAAAAGEUWJK+13rbp8="
+							},
+							"source": {
+								"$ref": "AAAAAAGEUWJK+13rbp8="
+							},
+							"target": {
+								"$ref": "AAAAAAGEUViag1iSuFI="
+							}
+						},
+						{
+							"_type": "UMLDependency",
+							"_id": "AAAAAAGEUWRUhV5bn58=",
+							"_parent": {
+								"$ref": "AAAAAAGEUWJK+13rbp8="
+							},
+							"source": {
+								"$ref": "AAAAAAGEUWJK+13rbp8="
+							},
+							"target": {
+								"$ref": "AAAAAAGEUVjiFVjnByg="
+							}
+						},
+						{
+							"_type": "UMLDependency",
+							"_id": "AAAAAAGEUWRt9l5sy/U=",
+							"_parent": {
+								"$ref": "AAAAAAGEUWJK+13rbp8="
+							},
+							"source": {
+								"$ref": "AAAAAAGEUWJK+13rbp8="
+							},
+							"target": {
+								"$ref": "AAAAAAGEUVjRx1i9zMI="
+							}
+						},
+						{
+							"_type": "UMLDependency",
+							"_id": "AAAAAAGEUWR5C159f30=",
+							"_parent": {
+								"$ref": "AAAAAAGEUWJK+13rbp8="
+							},
+							"source": {
+								"$ref": "AAAAAAGEUWJK+13rbp8="
+							},
+							"target": {
+								"$ref": "AAAAAAGEUWLE8l4w/RU="
+							}
+						}
+					]
+				},
+				{
+					"_type": "UMLComponent",
+					"_id": "AAAAAAGEUWLE8l4w/RU=",
+					"_parent": {
+						"$ref": "AAAAAAGEUVXDlVeJYAQ="
+					},
+					"name": "Filter"
+				}
+			]
+		}
+	]
+}

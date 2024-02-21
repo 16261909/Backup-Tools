@@ -1,0 +1,71 @@
+{
+	"_type": "Project",
+	"_id": "AAAAAAFF+h6SjaM2Hec=",
+	"name": "Untitled",
+	"ownedElements": [
+		{
+			"_type": "UMLModel",
+			"_id": "AAAAAAGETLl/S3OiBlU=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "Model1",
+			"ownedElements": [
+				{
+					"_type": "UMLUseCaseDiagram",
+					"_id": "AAAAAAGETLmMlHOlcIQ=",
+					"_parent": {
+						"$ref": "AAAAAAGETLl/S3OiBlU="
+					},
+					"name": "UseCaseDiagram1"
+				},
+				{
+					"_type": "UMLUseCase",
+					"_id": "AAAAAAGETLz5pnQ5AVY=",
+					"_parent": {
+						"$ref": "AAAAAAGETLl/S3OiBlU="
+					},
+					"name": "Set filter",
+					"ownedElements": [
+						{
+							"_type": "UMLAssociation",
+							"_id": "AAAAAAGETN9fI03falo=",
+							"_parent": {
+								"$ref": "AAAAAAGETLz5pnQ5AVY="
+							},
+							"end1": {
+								"_type": "UMLAssociationEnd",
+								"_id": "AAAAAAGETN9fI03gVRA=",
+								"_parent": {
+									"$ref": "AAAAAAGETN9fI03falo="
+								},
+								"reference": {
+									"$ref": "AAAAAAGETLz5pnQ5AVY="
+								}
+							},
+							"end2": {
+								"_type": "UMLAssociationEnd",
+								"_id": "AAAAAAGETN9fI03hLNM=",
+								"_parent": {
+									"$ref": "AAAAAAGETN9fI03falo="
+								},
+								"reference": {
+									"$ref": "AAAAAAGETN7jbEv4daY="
+								},
+								"navigable": "navigable"
+							}
+						}
+					]
+				},
+				{
+					"_type": "UMLUseCase",
+					"_id": "AAAAAAGETN7jbEv4daY=",
+					"_parent": {
+						"$ref": "AAAAAAGETLl/S3OiBlU="
+					},
+					"name": "Pack a folder to destination path"
+				}
+			]
+		}
+	]
+}

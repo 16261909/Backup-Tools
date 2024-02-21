@@ -1,0 +1,65 @@
+10/20 150
+basic kernel structure
+backup module
+
+10/21 150
+install winhex
+study Ustar format
+
+10/22 250
+pack module
+debug: malloc (solution: enlarge the allocated memory)
+
+10/23 250
+design zip file structure
+debug: unsigned char
+
+10/24 500
+zip module
+unzip module
+DS:huffman tree, trie
+debug: bitwise operation
+
+10/25 750
+basic GUI
+unpack module
+
+10/26 800
+learn openssl
+link to openssl
+encrypt module
+
+10/27 850
+decrypt module
+improve: add address automatically, pwd check(add checksum field in .huf head), keep tmp files
+debug: AES_set_encrypt_key(bits), bits has to be 128, 192, 256
+
+10/28 1100
+backup process
+GUI improvement: hide & show widgets, special processing when generate files
+Decompress & Unpack process
+
+10/29 1150
+GUI: filter subwidget
+
+10/30 1350
+learn extern, QVariant(send structual information between windows)
+time filter module
+Filter on time should not be used on folders
+debug: use different structure name in two .cpp file when exchange message between widgets
+
+10/31 1450 
+path, name, type filter
+special logic in path filter
+
+11/5 1500
+remove empty folder
+warnings
+
+video:
+origin backup mode
+pack backup mode
+encrypt backup mode
+unpack
+type white filter
+time black filter
